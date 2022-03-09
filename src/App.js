@@ -230,7 +230,7 @@ const List = ({ list, onRemoveItem }) => {
             Points
           </button>
         </span>
-        <span style={{ width: '10%' }}>Actions</span>
+        <span style={{ width: '10%', fontWeight: 600, color: 'grey' }}>Actions</span>
       </li>
 
       {sortedList.map((item) => (
